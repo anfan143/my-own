@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Date Range Picker Styles */
+.react-daterange-picker {
+  @apply w-full max-w-md;
+}
+
+.react-daterange-picker__wrapper {
+  @apply border border-gray-300 rounded-md px-3 py-2 bg-white;
+}
+
+.react-daterange-picker__inputGroup {
+  @apply text-sm text-gray-900;
+}
+
+.react-daterange-picker__calendar {
+  @apply mt-1 border border-gray-200 rounded-lg shadow-lg !important;
+}
+
+.react-calendar {
+  @apply border-0 rounded-lg !important;
+}
+
+.react-calendar__tile--active {
+  @apply bg-blue-600 !important;
+}
+
+.react-calendar__tile--now {
+  @apply bg-blue-50 !important;
+}
+
+/* Time Range Picker Styles */
+.react-timerange-picker {
+  @apply w-full max-w-md;
+}
+
+.react-timerange-picker__wrapper {
+  @apply border border-gray-300 rounded-md px-3 py-2 bg-white;
+}
+
+.react-timerange-picker__inputGroup {
+  @apply text-sm text-gray-900;
+}
+
+.react-timerange-picker__clock {
+  @apply hidden;
+}
